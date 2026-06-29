@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.4",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.24.0"
+    },
+    "version": "1.20.0",
+    "libraryName": "wie-is-wie-extensions",
+    "libraryId": "10dfd367-0a2e-42e4-9149-16b3aa02e13f",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "wie-is-wie-extensions",
+    "solutionShortDescription": "wie-is-wie-extensions description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "library"
+  }
+}

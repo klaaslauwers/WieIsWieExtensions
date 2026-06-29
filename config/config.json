@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "wie-is-wie-search-extensions-library": {
+      "components": [
+        {
+          "entrypoint": "./lib/index.js",
+          "manifest": "./src/libraries/wieIsWieSearchExtensions/WieIsWieSearchExtensionsLibrary.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "WieIsWieSearchExtensionsLibraryStrings": "lib/libraries/wieIsWieSearchExtensions/loc/{locale}.js"
+  }
+}

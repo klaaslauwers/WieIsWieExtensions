@@ -1,0 +1,18 @@
+.profileFirstRow { margin: 0; }
+.profileFirstRow LI { display: flex; align-items: center; line-height: 1.4em; }
+.profile {display: -webkit-box;}
+.profileTop { flex-grow: 1; }
+.profileImage {max-width: 150px; max-height: 150px; width:auto; height:auto; margin-right: 20px;}
+.profileName strong { font-size: 20px; color: inherit !important; }
+.profileTitle { font-size: 18px; }
+.profileProperty { display: flex; }
+.profileProperty span { display:flex; }
+.profilePropertyTeams {     
+    font-size: 16px;
+    margin-left: 10px;
+}
+.profilePropertyTeams a {
+    text-decoration: none;
+    color: black;
+} 
+.profilePropertyMargin span {margin-right: 10px;}
